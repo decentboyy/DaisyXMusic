@@ -1,20 +1,17 @@
-from os import getenv
-
-que = {}
-SESSION_NAME = getenv("SESSION_NAME", "session")
-BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "DaisyXupdates")
-BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/dcfdf612e499eef0e0b1f.png")
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "DaisyXhelper")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "DaisySupport_Official")
-PROJECT_NAME = getenv("PROJECT_NAME", "DaisyXMusic v6")
-SOURCE_CODE = getenv("SOURCE_CODE", "github.com/TeamDaisyX/DaisyXMusic")
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "300"))
-PMPERMIT = getenv("PMPERMIT", None)
-LOG_GRP = getenv("LOG_GRP", None)
-COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+SESSION_NAME=BQGv-eEAkbufcMNnZHAuOO3Eg2-DArXCmla0u0kIqq4HRn3HiGHO5COKjfXvuMObbj109juci1pct41FUJsrEANnGosX9zr53L2NGzmZNSSXu_Kt9YOEbPpCn5QKqRzXVBs95tXi-bx7rLttlySg8jOUpNOxYRENOFJbQzNCp_pps3VnPfoiEsvElaAhs52bz9_M7uDmku-NTItuIDi1z2Obwbu3szOZZseKpdulmmwY3Hlfsq4h3aSZvsV33w_iA-POnkd8NLweBJdgg457t2BFegwn2E3vpoADqkB865EhtoOmpWj3qJN9pIpkeQpatyK7ENuVqffEnjtbs61KokNVshtxAwAAAAFtvv5GAA
+BOT_TOKEN=2053780382:AAEquGaB7BqDSDsYyJnqRo3LWStg5jIaa7I
+BOT_NAME=Pᴀᴛʀɪᴄɪᴀ
+UPDATES_CHANNEL=Octave_support
+BG_IMAGE=https://graph.org/file/3bd0ddd2b74b99d1e3293.jpg
+API_ID=28309985
+API_HASH=ef360fdbf75ffbf0eddb6d37d1c464e0
+BOT_USERNAME=PETRICIA_ROBOT
+ASSISTANT_NAME=Patricia_assistant
+SUPPORT_GROUP=pglpnti_ki_duniya
+PROJECT_NAME=OctaveMusic
+SOURCE_CODE=https://github.com/decentboyy/DaisyXMusic
+DURATION_LIMIT=90
+PMPERMIT=None
+LOG_GRP=-1001778136057
+COMMAND_PREFIXES=/
+SUDO_USERS=1225278379
