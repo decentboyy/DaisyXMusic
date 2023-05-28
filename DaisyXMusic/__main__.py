@@ -2,7 +2,7 @@ import requests
 from pyrogram import Client as Bot
 from pytgcalls import idle
 
-from DaisyXMusic.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
+from DaisyXMusic.config import  API_ID, API_HASH, BG_IMAGE, BOT_TOKEN
 from DaisyXMusic.services.pytgcalls import run
 
 response = requests.get(BG_IMAGE)
